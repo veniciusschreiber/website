@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+
+  background-color: #c9f2f7;
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  /* resolução website - remover comentário antes de publicar*/
+  height: 1200px;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* resolução rodapé - remover comentário antes de publicar*/
+  height: 200px;
+  width: 100%;
+
+  background-color: #c9f2f7;
+}
