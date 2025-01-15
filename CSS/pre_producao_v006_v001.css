@@ -4,6 +4,8 @@ body {
   align-items: center;
   flex-direction: column;
 
+  background-color: #00ffca;
+
   width: 100%;
 }
 
@@ -12,7 +14,6 @@ header {
   justify-content: top;
   align-items: center;
 
-  background-color: #c9f2f7;
   width: 100%;
 }
 
@@ -26,7 +27,7 @@ main {
   align-items: center;
   flex-direction: column;
   /* resolução website - remover comentário antes de publicar*/
-  height: 1200px;
+  height: 826px;
   width: 100%;
 }
 
@@ -39,5 +40,5 @@ footer {
   height: 200px;
   width: 100%;
 
-  background-color: #c9f2f7;
+  background-color: #00ffca;
 }

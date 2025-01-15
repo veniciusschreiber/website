@@ -1,0 +1,35 @@
+.section_1 {
+  height: 100%;
+  width: 100vw;
+
+  background-color: #00ffca;
+}
+
+.box_H {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: white;
+
+  color: whitesmoke;
+}
+
+.box_V {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: black;
+}
+
+.box_Footer_A {
+  height: 50%;
+  width: 100%;
+}
+
+.box_Footer_B {
+  height: 90%;
+  width: 50%;
+}
