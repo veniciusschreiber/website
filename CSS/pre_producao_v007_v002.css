@@ -1,8 +1,8 @@
 .section_1 {
-  height: 100%;
+  height: 10%;
   width: 100vw;
 
-  background-color: #00ffca;
+  background-color: #ff0035;
 }
 
 .box_H {
@@ -25,11 +25,11 @@
 }
 
 .box_Footer_A {
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 
 .box_Footer_B {
-  height: 90%;
+  height: 100%;
   width: 50%;
 }

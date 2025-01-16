@@ -4,7 +4,7 @@ body {
   align-items: center;
   flex-direction: column;
 
-  background-color: #00ffca;
+  background-color: #2a3130;
 
   width: 100%;
 }
@@ -27,8 +27,8 @@ main {
   align-items: center;
   flex-direction: column;
   /* resolução website - remover comentário antes de publicar*/
-  height: 826px;
   width: 100%;
+  height: calc(width * 0, 4864);
 }
 
 footer {
@@ -37,8 +37,8 @@ footer {
   align-items: center;
   flex-direction: column;
   /* resolução rodapé - remover comentário antes de publicar*/
-  height: 200px;
+  height: 50%;
   width: 100%;
 
-  background-color: #00ffca;
+  background-color: #ff0035;
 }

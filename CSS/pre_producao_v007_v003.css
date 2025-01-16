@@ -1,0 +1,61 @@
+.font_menu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 40;
+  font-size: 60px;
+
+  color: #6b6256;
+}
+
+.font_Format_Copyright {
+  font-size: small;
+  font-family: sans-serif;
+}
+
+.image_1 {
+  width: 100%;
+  height: calc(width * 0, 4864);
+  position: absolute;
+  z-index: 1;
+}
+
+.image_2 {
+  width: 100%;
+  height: calc(width * 0, 4864);
+  position: absolute;
+  z-index: 2;
+}
+
+.image_letras {
+  width: 100%;
+  height: calc(width * 0, 4864);
+}
+
+.image_letra_1 {
+  position: absolute;
+  z-index: 3;
+}
+
+.image_letra_2 {
+  position: absolute;
+  z-index: 4;
+}
+
+.image_letra_3 {
+  position: absolute;
+  z-index: 5;
+}
+
+.image_letra_4 {
+  position: absolute;
+  z-index: 6;
+}
+
+.image_letra_5 {
+  position: absolute;
+  z-index: 7;
+}
+
+.image_letra_6 {
+  position: relative;
+  z-index: 8;
+}
