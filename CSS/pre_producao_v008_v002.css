@@ -1,8 +1,8 @@
 .section_1 {
-  height: 10%;
+  height: 100%;
   width: 100vw;
 
-  background-color: #ff0035;
+  background-color: #ff1c01;
 }
 
 .box_H {
@@ -10,7 +10,7 @@
   justify-content: space-evenly;
   align-items: center;
 
-  background-color: white;
+  background-color: black;
 
   color: whitesmoke;
 }
@@ -21,7 +21,7 @@
   align-items: center;
   flex-direction: column;
 
-  background-color: black;
+  background-color: #ff1c01;
 }
 
 .box_Footer_A {
@@ -30,6 +30,6 @@
 }
 
 .box_Footer_B {
-  height: 100%;
-  width: 50%;
+  height: 80%;
+  width: 100%;
 }
