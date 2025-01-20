@@ -1,4 +1,12 @@
 .section_1 {
+  width: 100vw;
+  height: 100dvh;
+  background-color: #ff1c01;
+}
+
+.section_2 {
+  display: flex;
+  justify-content: space-evenly;
   height: 100%;
   width: 100vw;
 

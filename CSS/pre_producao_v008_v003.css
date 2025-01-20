@@ -1,19 +1,25 @@
-.font_menu {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 40;
-  font-size: 60px;
+.font_overall {
+  font-family: "Oswald", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
 
-  color: #6b6256;
+  font-weight: 40;
+  font-size: 40px;
+
+  color: white;
 }
 
 .font_Format_Copyright {
   font-size: small;
-  font-family: sans-serif;
+  font-family: "Oswald", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
 
 .image_1 {
-  width: 100%;
-  height: calc(width * 0, 4864);
+  width: calc(height * 0, 4);
+  height: 100vh;
+
   position: absolute;
   z-index: 1;
 }
