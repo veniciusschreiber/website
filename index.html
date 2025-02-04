@@ -255,7 +255,7 @@
               alt="footer letras"
             />
           </figure>
-          <div class="item_2_footer">
+          <form class="item_2_footer">
             <div class="form-floating">
               <select class="form-select" id="floatingSelect">
                 <option selected>Question</option>
@@ -268,9 +268,11 @@
               <input
                 type="email"
                 class="form-control"
-                id="floatingInput"
+                id="floatingInputValue"
                 placeholder="name@example.com"
+                value="test@example.com"
               />
+
               <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating mb-3">
@@ -281,7 +283,8 @@
               ></textarea>
               <label for="floatingTextarea2">Comments</label>
             </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
           <div class="item_3_footer box_H">
             <figure>
               <img
@@ -313,5 +316,6 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="Javascript/contact-form.js"></script>
   </body>
 </html>
