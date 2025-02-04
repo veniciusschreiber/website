@@ -1,0 +1,105 @@
+.font_overall {
+  font-family: "Oswald", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+
+  font-weight: 40;
+  font-size: 40px;
+
+  color: white;
+}
+
+.font_Format_Copyright {
+  font-size: small;
+  font-family: "Oswald", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.image_1 {
+  display: flex;
+
+  height: 103.5%;
+  min-height: fit-content;
+
+  animation: opacityControl;
+  animation-timeline: scroll(y);
+}
+
+.image_2a,
+.box_image_2a {
+  animation: section_2_Slide ease-in-out;
+  animation-timeline: scroll(y);
+  height: 600px;
+}
+
+.image_2a {
+  position: relative;
+  z-index: 4;
+}
+
+.box_image_2a {
+  background-color: #00c25d;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+
+.image_2b {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  left: 0%;
+}
+
+.image_2c {
+  height: 600px;
+  width: 100%;
+
+  opacity: 12.5%;
+
+  left: 0%;
+
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes opacityControl {
+  100% {
+    opacity: 100%;
+  }
+  25% {
+    opacity: 0%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+@keyframes section_2_Slide {
+  0% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+
+  40% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+
+  45% {
+    transform: translateX(-25px);
+    opacity: 5%;
+  }
+
+  55% {
+    transform: translateX(250px);
+    opacity: 0%;
+  }
+
+  100% {
+    transform: translateX(600px);
+    opacity: 0%;
+  }
+}

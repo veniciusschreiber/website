@@ -1,24 +1,18 @@
 body {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-
-  background-color: #ff1c01;
-
+  background-color: #002641;
   width: 100%;
 }
 
 header {
   display: flex;
-  justify-content: top;
   align-items: center;
-
   width: 100%;
+  background-color: #ff7f00;
 }
 
 h1 {
   width: 100%;
+  height: auto;
 }
 
 main {
@@ -28,17 +22,16 @@ main {
   flex-direction: column;
   /* resolução website - remover comentário antes de publicar*/
   width: 100%;
-  height: 100vh;
+  height: 1800px;
 }
 
 footer {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  /* resolução rodapé - remover comentário antes de publicar*/
-  height: 250px;
-  width: 100%;
+  justify-content: center;
 
-  background-color: #ff1c01;
+  /* resolução rodapé - remover comentário antes de publicar*/
+  width: 100%;
+  height: 600px;
+
+  background-color: #002641;
 }
