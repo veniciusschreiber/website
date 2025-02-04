@@ -21,19 +21,16 @@
 
   height: 103.5%;
   min-height: fit-content;
-
-  animation: opacityControl;
-  animation-timeline: scroll(y);
 }
 
 .image_2a,
 .box_image_2a {
-  animation: section_2_Slide ease-in-out;
-  animation-timeline: scroll(y);
+  animation: section_2_opacity alternate infinite 12s;
   height: 600px;
 }
 
 .image_2a {
+  animation: section_2_Slide alternate infinite 12s;
   position: relative;
   z-index: 4;
 }
@@ -65,41 +62,41 @@
   z-index: 1;
 }
 
-@keyframes opacityControl {
-  100% {
-    opacity: 100%;
+@keyframes section_2_Slide {
+  0% {
+    transform: translateX(90px);
   }
   25% {
-    opacity: 0%;
+    transform: translateX(90px);
   }
-  to {
-    opacity: 0%;
+
+  30% {
+    transform: translateX(-30px);
+  }
+
+  35% {
+    transform: translateX(90px);
+  }
+
+  100% {
+    transform: translateX(0px);
   }
 }
 
-@keyframes section_2_Slide {
-  0% {
-    transform: translateX(0px);
+@keyframes section_2_opacity {
+  25% {
     opacity: 100%;
   }
 
-  40% {
-    transform: translateX(0px);
-    opacity: 100%;
+  30% {
+    opacity: 50%;
   }
 
-  45% {
-    transform: translateX(-25px);
-    opacity: 5%;
-  }
-
-  55% {
-    transform: translateX(250px);
+  35% {
     opacity: 0%;
   }
 
   100% {
-    transform: translateX(600px);
     opacity: 0%;
   }
 }
