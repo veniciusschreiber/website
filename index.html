@@ -46,7 +46,7 @@
       <h1>
         <nav class="navbar navbar-expand-lg" style="background-color: #ff7f00">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Vanguarda Websites</a>
+            <a class="navbar-brand" href="">Vanguarda Websites</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -60,15 +60,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-                <a class="nav-link" href="pre_producao_v008_a.html"
-                  >Who We Are</a
-                >
-                <a class="nav-link" href="pre_producao_v008_b.html"
-                  >Portfolio</a
-                >
+                <a class="nav-link active" id="homeBtn">Home</a>
+                <a class="nav-link" id="whoWeAreBtn">Who We Are</a>
+                <a class="nav-link" id="portfolioBtn">Portfolio</a>
               </div>
             </div>
           </div>
@@ -78,8 +72,9 @@
     <div>
       <div>
         <main>
-          <section class="section_1">
+          <section class="section_1" id="homeSection">
             <h2></h2>
+
             <figure>
               <img
                 class="image_1"
@@ -88,7 +83,7 @@
               />
             </figure>
           </section>
-          <section class="section_2">
+          <section class="section_2" id="whoWeAreSection">
             <h2></h2>
             <div class="box_image_2a">
               <figure>
@@ -112,43 +107,25 @@
               />
             </figure>
           </section>
-          <section class="section_3">
+          <section class="section_3" id="portfolioSection">
             <h2></h2>
             <div class="carousel_grid">
               <figure class="item_1">
                 <img
                   alt="Portfolio Section"
-                  src="CSS/Img/vanguarda_website_v001/secao_3/image_row_1_secao_3_v001.png"
+                  src="CSS/Img/vanguarda_website_v001/secao_3/letras_secao_3_v003a 1.svg"
                 />
               </figure>
               <figure class="item_2">
                 <img
                   alt="Portfolio Section"
-                  src="CSS/Img/vanguarda_website_v001/secao_3/image_row_1_column_3_secao_3_v001.png"
+                  src="CSS/Img/vanguarda_website_v001/secao_3/letras_secao_3_v003b 1.svg"
                 />
               </figure>
               <figure class="item_3">
                 <img
                   alt="Portfolio Section"
-                  src="CSS/Img/vanguarda_website_v001/secao_3/image_row_2_column_1_secao_3_v001.png"
-                />
-              </figure>
-              <figure class="item_4">
-                <img
-                  alt="Portfolio Section"
-                  src="CSS/Img/vanguarda_website_v001/secao_3/image_row_2_column_2_secao_3_v001.png"
-                />
-              </figure>
-              <figure class="item_5">
-                <img
-                  alt="Portfolio Section"
-                  src="CSS/Img/vanguarda_website_v001/secao_3/image_row_2_column_3_secao_3_v001.png"
-                />
-              </figure>
-              <figure class="item_6">
-                <img
-                  alt="Portfolio Section"
-                  src="CSS/Img/vanguarda_website_v001/secao_3/image_row_3_secao_3_v001.png"
+                  src="CSS/Img/vanguarda_website_v001/secao_3/letras_secao_3_v003c 1.svg"
                 />
               </figure>
 
@@ -251,7 +228,7 @@
         <div class="footer_grid">
           <figure class="item_1_footer">
             <img
-              src="CSS/Img/vanguarda_website_v001/secao_4/letras_secao_4_v001.svg"
+              src="CSS/Img/vanguarda_website_v001/secao_4/letras_secao_4_v002 1.svg"
               alt="footer letras"
             />
           </figure>
@@ -295,9 +272,9 @@
             <p class="" href="">@vanguarda_websites</p>
           </div>
           <div class="box_V item_4_footer">
-            <div href="">Home</div>
-            <div href="">Who We Are</div>
-            <div href="">Portfolio</div>
+            <div id="bottomHomeBtn">Home</div>
+            <div id="bottomWhoWeAreBtn">Who We Are</div>
+            <div id="bottomPortfolioBtn">Portfolio</div>
           </div>
           <div class="font_Format_Copyright item_5_footer">
             @Vanguard Websites. 2014. All Rights Reserved
@@ -317,5 +294,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="Javascript/contact-form.js"></script>
+    <script src="Javascript/menu-funcionality_v001.js"></script>
   </body>
 </html>

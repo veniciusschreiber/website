@@ -17,8 +17,7 @@
 }
 
 .image_1 {
-  display: flex;
-
+  left: 0%;
   height: 103.5%;
   min-height: fit-content;
 }
