@@ -1,5 +1,5 @@
 .font_overall {
-  font-family: "Oswald", serif;
+  font-family: "Gayathri", serif;
   font-style: normal;
   font-optical-sizing: auto;
 
@@ -11,7 +11,7 @@
 
 .font_Format_Copyright {
   font-size: small;
-  font-family: "Oswald", serif;
+  font-family: "Gayathri", serif;
   font-style: normal;
   font-optical-sizing: auto;
 }
@@ -22,80 +22,74 @@
   min-height: fit-content;
 }
 
-.image_2a,
 .box_image_2a {
-  animation: section_2_opacity alternate infinite 12s;
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image_2a {
-  animation: section_2_Slide alternate infinite 12s;
-  position: relative;
-  z-index: 4;
-}
-
-.box_image_2a {
-  background-color: #00c25d;
+  height: 600px;
   width: 100%;
+
+  left: 0%;
+  background-color: #00c25d;
+
   position: absolute;
   z-index: 3;
 }
 
 .image_2b {
-  height: 600px;
-  width: 100%;
-  position: absolute;
+  width: auto;
+  height: fit-content;
+  scale: 0.5;
+
+  border: 5px solid red;
+
   z-index: 0;
   left: 0%;
 }
 
-.image_2c {
-  height: 600px;
-  width: 100%;
+@media screen and (aspect-ratio < 1.13) {
+  .image_2b {
+    width: auto;
+    height: fit-content;
+    border: 5px solid blue;
+    scale: 0.25;
 
-  opacity: 12.5%;
-
-  left: 0%;
-
-  position: absolute;
-  z-index: 1;
+    z-index: 0;
+    left: 0%;
+  }
 }
 
-@keyframes section_2_Slide {
+.image_2a:hover {
+  animation: section_2 6s infinite;
+}
+
+@keyframes section_2 {
   0% {
-    transform: translateX(90px);
+    left: 0%;
   }
-  25% {
-    transform: translateX(90px);
-  }
-
-  30% {
-    transform: translateX(-30px);
+  5% {
+    left: -18%;
   }
 
-  35% {
-    transform: translateX(90px);
+  15% {
+    left: -20%;
   }
 
-  100% {
-    transform: translateX(0px);
-  }
-}
-
-@keyframes section_2_opacity {
-  25% {
+  22% {
+    left: -20%;
     opacity: 100%;
   }
 
   30% {
-    opacity: 50%;
-  }
-
-  35% {
+    left: 0%;
     opacity: 0%;
   }
 
   100% {
+    left: 0%;
     opacity: 0%;
   }
 }
